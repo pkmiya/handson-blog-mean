@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "nodemon index.js",
+        "start:dev": "dotenv -e .env.local nodemon index.js"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
